@@ -32,7 +32,5 @@
     <dd>Bahasa untuk mengatur tampilan halaman web.</dd>
 </dl>
 
-<a href="https://facebook.com" target="_blank">pisbuk  </a>
-<a href="akamsi.html" target="_blank">akamsi </a>
 </body>
 </html>
