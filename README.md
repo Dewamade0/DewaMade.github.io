@@ -7,9 +7,9 @@
 </head>
 <body>
     <img src="dewa.jpg" alt="Description of the image" width="600" height="400">
-    <h1>Nama Saya Dewa ganteng</h1>   
+    <h1>Nama Saya Dewa Made Oka Juniantara</h1>   
 <h2>Tentang Saya: Sebagai Mahasiswa</h2>
-<p><mark>adalah mahasiswa Rekayasa Sistem Komputer yang tertarik pada web development dan cyber security.</mark></p>
+<p><mark>adalah mahasiswa Rekayasa Sistem Komputer yang tertarik pada web development, cyber security dan IoT.</mark></p>
 
 <!-- Keahlian -->
 <h3>Keahlian</h3>
@@ -17,6 +17,8 @@
     <li>HTML</li>
     <li>CSS</li>
 <li>JavaScript</li>
+       <li>Cisco</li>
+     <li>Mikrotik</li>
 </ul>
 <!-- Riwayat Pendidikan -->
  <h3>Riwayat Pendidikan</h3>
@@ -25,12 +27,7 @@
     <li>SMP Negeri 7 Denpasar</li>
     <li>SMK Negeri 1 Denpasar</li>
  </ol>
- <dl>
-    <dt>HTML</dt>
-    <dd>Bahasa markup untuk struktur halaman web.</dd>
-    <dt>CSS</dt>
-    <dd>Bahasa untuk mengatur tampilan halaman web.</dd>
-</dl>
+ 
 
 </body>
 </html>
