@@ -6,12 +6,24 @@
     <title>Document</title>
 </head>
 <body>
-    <img src="dewa.jpg" alt="Description of the image" width="600" height="400">
-    <h1>Nama Saya Dewa Made Oka Juniantara</h1>   
+  
+    <nav aria-label="Navigasi utama">
+    <li><a href="#Tentang">Tentang</a></li>
+    <li><a href="#Keahlian">Keahlian</a></li>
+    <li><a href="#Pendidikan">Pendidikan</a></li>
+  <li><a href="#Hobi">Hobi</a></li>
+        <li><a href="#Profile">Profile</a></li>
+</nav>
+    <main>
+    <img src="dewa.jpg" alt="Profile Picture" width="600" height="400">
+    <strong><h1>CV</h1></strong>   <section id="Tentang">
+    <h2>Nama saya adalah I Dewa Made Oka Juniantara dengan NIM 2501020041</h2>
 <h2>Tentang Saya: Sebagai Mahasiswa</h2>
-<p><mark>adalah mahasiswa Rekayasa Sistem Komputer yang tertarik pada web development, cyber security, dan IoT.</mark></p>
-
+<p><mark>Saya adalah mahasiswa Rekayasa Sistem Komputer di Institut Bisnis dan Teknologi Indonesia yang tertarik pada web development, cyber security, dan IoT.</mark></p>
+</section>
+        
 <!-- Keahlian -->
+        <section id="Keahlian">
 <h3>Keahlian</h3>
 <ul>
     <li>HTML</li>
@@ -20,20 +32,54 @@
     <li>Mikrotik</li>
         <li>Cisco</li>
 </ul>
+            </section>
+        
 <!-- Riwayat Pendidikan -->
+        <section id="Pendidikan">
  <h3>Riwayat Pendidikan</h3>
  <ol><ol start="1">
     <li>SD Negeri 27 Pemecutan</li>
     <li>SMP Negeri 7 Denpasar</li>
     <li>SMK Negeri 1 Denpasar</li>
  </ol>
+ </section>
+
+<!-- Hobi -->
+            <section id="Hobi">
  <dl>
     <dt>Suka Belajar</dt>
     <dd>Saya sangat menyukai untuk mengexplore hal baru.</dd>
-    <dt>Mampu beradaptasi</dt>
-    <dd>Sangat sulit untuk belajar tanpa kemampuan beradaptasi.</dd>
+    <dt>Suka membaca & menonton video</dt>
+    <dd>Saya sangat suka membaca komik dan menonton film bioskop/youtube.</dd>
 </dl>
+            </section>
+       
+<!-- Profile -->
+                   <section id="Profile">
+            <h2>Profile</h2>
+            <p>+6287756117***</p>
+            <h3>Media Sosial</h3>
+            <ul>
+                <li><a href="https://github.com/Dewamade0/DewaMade.github.io" target="_blank">GitHub</a></li>
+            </ul>
+             <ul>
+                <li><a href="https://www.instagram.com/_.nematomorpha._?stkn=MXJ6NWkxYWh0dDZyMA==" target="_blank">Instagram</a></li>
+            </ul>
+            <h3>Kirim Pesan</h3>
+            <form action="#" method="get">
+                <label for="nama">Nama</label>
+                <input id="nama" name="nama" type="text" required>
 
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" required>
+
+                <label for="pesan">Pesan</label>
+                <textarea id="pesan" name="pesan" required></textarea>
+
+                <button type="submit">Kirim Pesan</button>
+            </form>
+        </section>
+ </main>
 
 </body>
 </html>
